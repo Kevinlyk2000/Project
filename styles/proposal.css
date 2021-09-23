@@ -1,0 +1,10 @@
+body{
+    background-image: url('../images/proposal_background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: overlay;
+}
+p{
+    color: rgb(202, 7, 241);
+}
