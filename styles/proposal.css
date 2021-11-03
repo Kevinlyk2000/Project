@@ -7,4 +7,21 @@ body{
 }
 p{
     color: rgb(202, 7, 241);
+    font-size: 18px;
+}
+li {
+  display: inline;
+  font-size: 18px;
+}
+ul {
+  background-color: grey;
+  height: 40px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
 }

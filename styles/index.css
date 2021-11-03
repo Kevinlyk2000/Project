@@ -1,0 +1,45 @@
+body {
+  background-image: url("../images/proposal_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: overlay;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+p {
+  color: rgb(202, 7, 241);
+  font-size: 18px;
+  font-style: italic;
+}
+li {
+  display: inline;
+  font-size: 18px;
+}
+ul {
+  background-color: grey;
+  height: 40px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+table,
+th,
+td,tr {
+  
+}
+table{
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+th{border: 1px solid black;font-size: 30px;}
+td{border: 1px solid black;font-size: 20px;color:  rgb(202, 7, 241);}

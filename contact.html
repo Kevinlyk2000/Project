@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kevin Liu" />
+    <meta name="description" content="History regarding immigration to U.S." />
+    <meta name="keywords" content="History, Immigration, U.S." />
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+      <li><a href="contracts_and_coercion.html">Contracts and Coercion</a></li>
+      <li><a href="pioneer_free_settlers.html">Pioneer Free Settlers</a></li>
+      <li>
+        <a href="age_of_mass_migration_from_europe.html"
+          >Age of Mass Migration from Europe</a
+        >
+      </li>
+      <li>
+        <a href="war_depression_and_restriction.html"
+          >War, Depression and Restriction</a
+        >
+      </li>
+      <li>
+        <a href="constrained_mass_migration.html">Constrained Mass Migration</a>
+      </li>
+      <li><a href="proposal.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h1>Contact</h1>
+    <img
+      src="images/contact1.png"
+      alt="Concentration of Immigrants"
+      height="300px"
+      title="Concentration of Immigrants"
+      id="contact1"
+    />
+    <img
+      src="images/contact2.png"
+      alt="Concentration of Immigrants"
+      height="300px"
+      title="Concentration of Immigrants"
+      id="contact2"
+    />
+    <div id="form">
+      <form>
+        <form action="https://oim-apis.herokuapp.com/form2" method="POST">
+          <div>
+            <label for="lname">Last name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="Last name"
+              placeholder="Last name"
+            />
+          </div>
+          <div>
+            <label for="fname">First name:</label>
+            <input
+              type="text"
+              id="fname"
+              name="First name"
+              placeholder="First name"
+            />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="Email address"
+              placeholder="Email address"
+            />
+          </div>
+          <div>
+            Gender:
+            <label for="m">Male</label>
+            <input type="radio" id="m" name="Gender" value="Male" />
+            <label for="f">Female</label>
+            <input type="radio" id="f" name="Gender" value="Female" />
+          </div>
+          <div>
+            My favorite topics are: <br />
+            <input
+              type="checkbox"
+              id="cc"
+              name="Favorite topics"
+              value="Contracts and Coercion"
+            />
+            <label for="cc">Contracts and Coercion</label><br />
+            <input
+              type="checkbox"
+              id="pfs"
+              name="Favorite topics"
+              value="Pioneer Free Settlers"
+            />
+            <label for="pfs">Pioneer Free Settlers</label><br />
+            <input
+              type="checkbox"
+              id="amme"
+              name="Favorite topics"
+              value="Age of Mass Migration from Europe"
+            />
+            <label for="amme">Age of Mass Migration from Europe</label><br />
+            <input
+              type="checkbox"
+              id="wdr"
+              name="Favorite topics"
+              value="War, Depression and Restriction"
+            />
+            <label for="wdr">War, Depression and Restriction</label><br />
+            <input
+              type="checkbox"
+              id="cmm"
+              name="Favorite topics"
+              value="Constrained Mass Migration"
+            />
+            <label for="cmm">Constrained Mass Migration</label><br />
+          </div>
+
+          <div>
+            <label for="comment">Leave a Reply:</label><br />
+            <textarea
+              id="comment"
+              name="Comment"
+              placeholder="Enter your comment here..."
+              cols="25"
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit">
+              <img
+                src="images/mailbox.png"
+                alt="Click me to submit"
+                height="30"
+                title="submit"
+              /></button
+            ><button type="reset">
+              <img
+                src="images/reset.png"
+                alt="Clear form"
+                height="30"
+                title="reset"
+              />
+            </button>
+          </div>
+        </form>
+      </form>
+    </div>
+  </body>
+</html>
