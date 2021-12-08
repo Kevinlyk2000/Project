@@ -133,7 +133,7 @@
             ></textarea>
           </div>
           <div>
-            <button type="submit">
+            <button id="submit" type="submit">
               <img
                 src="images/mailbox.png"
                 alt="Click me to submit"
@@ -152,5 +152,42 @@
         </form>
       </form>
     </div>
+    <script>
+      function submit(event) {
+        event.preventDefault();
+        const l_name = document.body.querySelector("#lname").value;
+        const f_name = document.body.querySelector("#fname").value;
+        const email = document.body.querySelector("#email").value;
+        if (l_name.length == 0 || f_name.length == 0 ||email.length==0) {
+          alert("Missing name or email");
+        } 
+      }
+
+      const contact1 = document.getElementById("contact1");
+      const contact2 = document.getElementById("contact2");
+      const ORIGINALWIDTH = 400;
+      function enlargeImage() {
+        let w = contact1.width;
+        let f = contact2.width;
+        w = w * 1.5;
+        f = f * 1.5;
+        contact1.width = w;
+        contact2.width = f;
+        title.innerHTML = "Make the Images Zoom in or out with Your Mouse!";
+      }
+      function resizeImage() {
+        contact1.width = ORIGINALWIDTH;
+        contact2.width = ORIGINALWIDTH;
+        title.innerHTML = "Manipulating Styles and Images";
+      }
+      contact1.onmouseover = enlargeImage;
+      contact1.onmouseout = resizeImage;
+      contact2.onmouseover = enlargeImage;
+      contact2.onmouseout = resizeImage;
+
+      document.body
+        .querySelector("#submit")
+        .addEventListener("click", submit);
+    </script>
   </body>
 </html>

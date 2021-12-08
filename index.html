@@ -33,7 +33,10 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <h1>An Introduction about History of Immigration to U.S.</h1>
-
+    <audio controls id="song" hidden="hidden">
+      <source src="audio/Immigrant Song (Remaster).mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
     <table>
       <tr>
         <th>Period</th>
@@ -85,5 +88,23 @@
       descended from immigrants and revolutionists. <br />
       President Franklin D. Roosevelt
     </p>
+    <button id="play">Play background music</button>
+    <script>
+      let is_playing = false;
+      function toggle() {
+        if (is_playing == false) {
+          document.querySelector("#song").play();
+          is_playing = true;
+          document.querySelector("#play").innerHTML="Stop background music";
+          
+        } else {
+          document.querySelector("#song").pause();
+          document.querySelector("#song").currentTime=0;
+          is_playing = false;
+          document.querySelector("#play").innerHTML="Play background music";
+        }
+      }
+      document.querySelector("#play").addEventListener("click", toggle);
+    </script>
   </body>
 </html>

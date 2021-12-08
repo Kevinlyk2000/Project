@@ -11,7 +11,7 @@ h1 {
 }
 li.navigation {
   display: inline;
-  font-size: 18px;
+  font-size: 20px;
 }
 #navigation {
   background-color: grey;
@@ -31,7 +31,7 @@ li.content {
   margin-left: 650px;
 }
 li.content a {
-  color: rgb(202, 7, 241);
+  color: rgb(7, 42, 241);
   padding: 10px;
   text-decoration: none;
 }

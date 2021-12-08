@@ -10,13 +10,13 @@ h1 {
   font-size: 40px;
 }
 p {
-  color: rgb(202, 7, 241);
+  color: rgb(7, 42, 241);
   font-size: 18px;
   font-style: italic;
 }
 li {
   display: inline;
-  font-size: 18px;
+  font-size: 20px;
 }
 ul {
   background-color: grey;
@@ -32,14 +32,45 @@ li a {
 }
 table,
 th,
-td,tr {
-  
+td,
+tr {
 }
-table{
+table {
   border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  border-collapse: collapse;
 }
-th{border: 1px solid black;font-size: 30px;}
-td{border: 1px solid black;font-size: 20px;color:  rgb(202, 7, 241);}
+th {
+  border: 1px solid black;
+  font-size: 30px;
+}
+td {
+  border: 1px solid black;
+  font-size: 20px;
+  color: rgb(202, 7, 241);
+}
+button {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #020c24;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: rgb(205, 50, 159);
+}
+button:hover {
+  color: #c6e70c;
+  border-color: #dddddd;
+}
+button:active {
+  color: #fc1010;
+  border-color: #bbbbbb;
+}

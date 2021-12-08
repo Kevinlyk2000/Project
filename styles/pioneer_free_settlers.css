@@ -6,12 +6,12 @@ body{
     min-height: 100%;
 }
 p{
-    color: rgb(202, 7, 241);
+    color: rgb(7, 42, 241);
     font-size: 18px;
 }
 li {
   display: inline;
-  font-size: 18px;
+  font-size: 20px;
 }
 ul {
   background-color: grey;
@@ -25,6 +25,9 @@ li a {
   padding: 10px;
   text-decoration: none;
 }
+#jamestown{
+    margin-left: 200px;
+}
 #indenture{
-    margin-left: 300px;
+    margin-left: 0px;
 }

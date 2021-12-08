@@ -11,7 +11,7 @@ h1 {
 }
 li {
   display: inline;
-  font-size: 18px;
+  font-size: 20px;
 }
 ul {
   background-color: grey;
@@ -28,7 +28,7 @@ li a {
 #form{
     margin-left: 600px;
     font-size: 25px;
-    color:rgb(202, 7, 241); 
+    color:rgb(7, 42, 241);
 }
 input{
     height: 20px;
